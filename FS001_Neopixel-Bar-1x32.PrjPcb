@@ -77,7 +77,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -234,24 +234,24 @@ Variation2=Designator=X100|UniqueId=\TNBILRVJ|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=Ausgabedatum
-Value=01.01.1970
+Name=Schaltung_SA_Nummer
+Value=FS001
 
 [Parameter2]
-Name=Bearbeitende_Person
-Value=JFR
+Name=Leiterplatten_Geraetebezeichnung
+Value=Neopixel Bar 1x32
 
 [Parameter3]
 Name=Dokumenten_Status
 Value=Draft
 
 [Parameter4]
-Name=Leiterplatten_Geraetebezeichnung
-Value=Bezeichnung
+Name=Bearbeitende_Person
+Value=JFR
 
 [Parameter5]
-Name=Schaltung_SA_Nummer
-Value=FS###
+Name=Ausgabedatum
+Value=01.08.2023
 
 [Configuration1]
 Name=Sources
@@ -1280,10 +1280,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name Only
+ComponentLibraryIdentifier0=Noris Automation GmbH
+ComponentDesignItemID0=CMP-007-00017-3
+ComponentSymbolReference0=Adressable LED 4-pin
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1297,6 +1303,63 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=AEC-Q102 Compliant
+ParameterUpdate0=1
+ParameterName1=Colour
+ParameterUpdate1=1
+ParameterName2=Comment
+ParameterUpdate2=1
+ParameterName3=Component Kind
+ParameterUpdate3=1
+ParameterName4=ComponentLink1Description
+ParameterUpdate4=1
+ParameterName5=ComponentLink1URL
+ParameterUpdate5=1
+ParameterName6=Description
+ParameterUpdate6=1
+ParameterName7=Forward Current
+ParameterUpdate7=1
+ParameterName8=Forward Voltage
+ParameterUpdate8=1
+ParameterName9=General
+ParameterUpdate9=1
+ParameterName10=JLCPCB/LCSC-Nr.
+ParameterUpdate10=1
+ParameterName11=Library Reference
+ParameterUpdate11=1
+ParameterName12=Manufacturer
+ParameterUpdate12=1
+ParameterName13=Material-Classification
+ParameterUpdate13=1
+ParameterName14=Max Power Dissipation
+ParameterUpdate14=1
+ParameterName15=Mounting Style
+ParameterUpdate15=1
+ParameterName16=Noris-Nr.
+ParameterUpdate16=1
+ParameterName17=Noris-Warehouse min. Stock
+ParameterUpdate17=1
+ParameterName18=Order Number
+ParameterUpdate18=1
+ParameterName19=Package
+ParameterUpdate19=1
+ParameterName20=Pins
+ParameterUpdate20=1
+ParameterName21=RoHS Compliant
+ParameterUpdate21=1
+ParameterName22=Temperature max.
+ParameterUpdate22=1
+ParameterName23=Temperature min.
+ParameterUpdate23=1
+ParameterName24=Value
+ParameterUpdate24=1
+ParameterName25=Wavelength
+ParameterUpdate25=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=XINGLIGHT - XL1615RGBC-WS2812B
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
